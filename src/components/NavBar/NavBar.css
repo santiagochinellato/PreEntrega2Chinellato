@@ -1,0 +1,70 @@
+.navbar {
+
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 3px solid rgb(109, 74, 167);
+  }
+
+  .navBarContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 24px;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    color: white;
+  }
+  
+  /* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+   */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: rgb(109, 74, 167);
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+  
+  .dropdown-menu {
+    background-color: black;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgb(109, 74, 167);
+    color: white;
+  }
+  

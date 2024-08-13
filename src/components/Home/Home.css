@@ -1,0 +1,28 @@
+.home{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1{
+    font-size: 40px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.b-home{
+    font-size: 30px;
+    color: rgb(109, 74, 167);
+    background-color: rgb(189, 189, 189);
+    margin-top: 40px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    border-radius: 25px;
+}
