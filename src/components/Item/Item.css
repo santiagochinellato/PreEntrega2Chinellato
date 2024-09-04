@@ -5,6 +5,7 @@
     border: 1px solid white;
     border-radius: 1rem;
     overflow: hidden;
+    border: 1px solid #3e3e3e;
 }
 
 .cards div{
@@ -15,40 +16,34 @@
 }
 
 .cards h4{
-    color: white
+    color: #3e3e3e
 }
 
 .cards img{
     width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    height: 50%;
     transition: 1s;
 }
 
-.cards img:hover{
-    transform: scale(1.1);
-}
 
 .cards p{
     font-size: 1rem;
     font-weight: 600;
-    color: white;
 }
 
 .ver-mas{
     text-decoration: none;
-    background-color: rgb(109, 74, 167);
+    background-color: #33348e;
     font-size: 1.2rem;
     color: white;
-    padding: .5rem;
-    width: max-content;
+
     border-radius: .5rem;
     transition: .2s;
     align-self: center;
+    padding:8px 16px;
 }
 
 .ver-mas:hover {
-    background-color: white;
-    color: white;
+    background-color: #3e3e3e;
+    color: white
 }
+

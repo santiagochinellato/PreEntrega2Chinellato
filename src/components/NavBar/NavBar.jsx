@@ -1,6 +1,6 @@
 import "./NavBar.css";
-import logo from "../../../public/images/logo.png";
-// import CartWidget from "../CartWidget/CartWidget";
+import logo from "../../assets/logo.png";
+import CartWidget from "../CartWidget/CartWidget";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
       className="navbar navbar-expand-lg bg-body-tertiary"
       data-bs-theme="light"
     >
-      <div className="navBarContainer">
+      <div className="container-fluid">
         <Link to={"/"}>
           <img className="logo" src={logo} alt="" />
         </Link>
@@ -56,49 +56,46 @@ const NavBar = () => {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link to={"/category/jewelery"} className="dropdown-item">
-                    Joyas
+                  <Link to={"/products/Accesorios"} className="dropdown-item">
+                    Accesorios
                   </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link
-                    to={"/category/men's%20clothing"}
-                    className="dropdown-item"
-                  >
-                    Ropa de Hombre
+                  <Link to={"/products/Shorts"} className="dropdown-item">
+                    Shorts
                   </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link to={"/category/electronics"} className="dropdown-item">
-                    Electrónica
+                  <Link to={"/products/Hoodie"} className="dropdown-item">
+                    Hoodies
                   </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link
-                    to={"/category/women's%20clothing"}
-                    className="dropdown-item"
-                  >
-                    Ropa de Mujer
+                  <Link to={"/products/Jordans"} className="dropdown-item">
+                    Jordans
+                  </Link>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <Link to={"/products/Sweater"} className="dropdown-item">
+                    Sweaters
                   </Link>
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contacto
-              </a>
-            </li>
           </ul>
-          {/* <CartWidget /> */}
+          <CartWidget />
         </div>
       </div>
     </nav>

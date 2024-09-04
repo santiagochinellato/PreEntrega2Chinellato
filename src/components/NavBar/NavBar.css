@@ -1,8 +1,9 @@
 .navbar {
 
     background-color: white;
-    padding: 10px 20px;
-    border-bottom: 3px solid rgb(109, 74, 167);
+
+    border-bottom: 1px solid #3e3e3e;
+    padding: 8px 16px;
   }
 
   .navBarContainer{
@@ -42,9 +43,10 @@
   
   .nav-link {
     color: white;
-    font-size: 18px;
+    font-size: 22px !important;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
+    font-weight: bold !important;
   }
   
   .nav-link:hover {
@@ -60,11 +62,16 @@
   
   .dropdown-item {
     color: white;
-    font-size: 16px;
+    font-size: 20px !important;
+    font-weight:bold !important;
   }
   
   .dropdown-item:hover {
     background-color: rgb(109, 74, 167);
     color: white;
+  }
+
+  .logo{
+    width: 54px;
   }
   

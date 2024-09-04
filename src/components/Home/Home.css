@@ -1,28 +1,32 @@
 .home{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .home h1{
-    font-size: 40px;
+    font-size: 56px;
     margin-top: -120px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .home p{
     font-size: 20px;
+    color: white;
 }
 
 .b-home{
     font-size: 30px;
-    color: rgb(109, 74, 167);
+    color: #3e3e3e;
+    font-weight: bold;
     background-color: rgb(189, 189, 189);
     margin-top: 40px;
-    width: 280px;
-    height: 55px;
+padding: 16px 8px;
     text-align: center;
-    border-radius: 25px;
+border-radius: 8px;
+    text-decoration: none;
 }
